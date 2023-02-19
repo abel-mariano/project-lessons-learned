@@ -172,3 +172,74 @@ th , td {
   font-size: 16px;
   padding: 8px;
 }
+
+/* Responsividade */
+@media screen and (max-width: 1000px) {
+  main {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .foto-Artigo {
+    flex-direction: column;
+  }
+
+  .foto {
+    margin-bottom: 20px;
+  }
+
+  #article {
+    margin-left: 0;
+  }
+
+  .box-lists {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  table {
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  h1 {
+    font-size: 25px;
+  }
+
+  nav ul {
+    font-size: 15px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  h1 {
+    font-size: 20px;
+  }
+
+  nav ul {
+    font-size: 13px;
+  }
+
+  .foto img {
+    width: 230px;
+  }
+
+  .lado-esquerdo {
+    padding: 0;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  ol {
+    margin-right: 15px;
+    margin-bottom: 10px;
+  }
+}
