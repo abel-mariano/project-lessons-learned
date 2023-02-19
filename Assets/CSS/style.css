@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(253, 251, 251);
+}
+
+/* Cabeçalho */
+#cabecalho {
+  background-color: rgb(2, 44, 22);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  text-align: center;
+  padding: 15px;
+}
+
+h1 {
+  color: white;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+nav ul , nav li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav a {
+  display: block;
+  padding: 8px 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: rgb(29, 183, 2);
+}
+
+nav a:hover {
+  background-color: rgb(157, 31, 174);
+  color: white;
+  border-radius: 2px;
+}
