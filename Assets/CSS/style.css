@@ -5,7 +5,9 @@
 }
 
 body {
-  background-color: rgb(253, 251, 251);
+  background-image: url('../Images/background.jpg');
+  background-position: center;
+  background-size: cover;
 }
 
 /* Cabeçalho */
@@ -162,4 +164,11 @@ th , td {
 .lado-direito p:hover {
   background-color: rgba(157, 31, 174, 0.233);
   transition: 0.2s;
+}
+
+/* Rodapé */
+#rodape {
+  text-align: center;
+  font-size: 16px;
+  padding: 8px;
 }
