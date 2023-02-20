@@ -11,7 +11,7 @@ A website was developed that contained a series of information about what was le
 <details>
 
 <div align="center">
-<img src="https://user-images.githubusercontent.com/120792207/219998679-74d6183d-c815-452c-846d-9a5284a5a4ef.png" width="1080px"/>
+<img src="https://user-images.githubusercontent.com/120792207/219998679-74d6183d-c815-452c-846d-9a5284a5a4ef.png" width="1920px"/>
 </div>
 
 </details>
